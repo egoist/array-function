@@ -13,16 +13,12 @@ $ npm install --save array-function
 ```js
 const arrayFunction = require('array-function')
 
-const fns = {
-	foo(bar, zoo, more) {
-		console.log(bar, zoo, more)
-	}
-}
-
 const fn = arrayFunction(JSON.stringify(['foo', 'bar', 'zoo', {a: 1}]))
-fn(fns)
-// yield
-// "bar" "zoo" {"a":1}
+// return
+{
+	name: 'foo',
+	args: ['bar', 'zoo', {a: 1}]
+}
 ```
 
 ## License
