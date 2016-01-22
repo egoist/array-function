@@ -1,0 +1,31 @@
+{
+  "name": "array-function",
+  "version": "0.0.0",
+  "description": "Read JS function from JSON(Array) data.",
+  "license": "MIT",
+  "repository": "egoist/array-function",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "json"
+  ],
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false
+  }
+}
